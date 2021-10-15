@@ -14,4 +14,7 @@ Rails.application.routes.draw do
   
   
   root 'static_pages#home'
+  
+  # resouce一次性7个
+  resources :users
 end
