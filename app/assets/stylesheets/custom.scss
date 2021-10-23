@@ -169,6 +169,20 @@ input, textarea, select, .uneditable-input {
   @include box_sizing;
 }
 
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
+}
+
 input {
   height: auto !important;
 }
